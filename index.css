@@ -77,9 +77,25 @@ nav ul{
   
 
 } 
+   .skill{ 
+        font-size:16px;
+        padding: 30px;
+       border-radius: 5px;
+       box-shadow: 0 6px 5px ;
+    } 
+ .skills-container{
+        display: flex;
+        
+        gap: 24px;
+
+    } 
 .main section{
       margin-top: 140px;
-}
+} 
+        .skills{
+        text-align: center;
+        padding: 20px 50px;
+    }
 .secondary-bg{
     background-color: #FFF8F3;
 } 
@@ -96,21 +112,32 @@ nav ul{
     .text-center{
         text-align: center;
     } 
-    .skills{
-        text-align: center;
-        padding: 20px 50px;
-    }
+
     .section-title{
         margin-top: 45px;
+     } 
+     .resume{
+        justify-content: space-between;
      }
-    .skills-container{
+   
+ 
+    .resume-container{
         display: flex;
-        
         gap: 24px;
-
+        justify-content: space-between;
     } 
-    .skill{
-        padding: 30px;
-       border-radius: 5px;
-       box-shadow: 0 6px 5px ;
+    .exprience-title{
+        color: #474747;
+        font-size: 20px;
+    } 
+    .exprience-distribution,exprience-sub-title{
+        
+        color: #757575;
+        margin-bottom: 20px;
+    
+    } 
+    .resume-column-title{
+        
+        width: 50%;
+        margin-bottom: 20px;
     }
